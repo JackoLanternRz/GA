@@ -1,0 +1,6 @@
+import subprocess
+startTime = datetime.datetime.now()
+p1 = subprocess.Popen(["./GA", "5000", "timeGA.txt"])
+endTime = datetime.datetime.now()
+sumTimes =  (endTime - startTime) / 5000
+print sumTimes
